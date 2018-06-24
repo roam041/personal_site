@@ -21,9 +21,6 @@ The function `mfcol` means the plots are arranged by columns.
 boxplot(iris$Sepal.Length)
 ```
 
-```{r}
-boxplot(iris$Sepal.Width)
-```
 
 ## Current Date
 Write "r format(Sys.time(), "%d/%m/%Y")" in YAML options.
