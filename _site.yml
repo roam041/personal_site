@@ -1,0 +1,9 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "My Website"
+  left:
+    - text: "R Command"
+      href: index.html
+    - text: "Latex Math"
+      href: about.html

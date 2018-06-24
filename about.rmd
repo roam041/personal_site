@@ -1,0 +1,36 @@
+---
+title: "Latex Math"
+---
+
+
+Covered the formula with `$` (an equation) or `$$` (centered equation).
+
+- Integrals
+
+`\int_{lower_bound}^{upper_bound}`
+
+$$\int_{}{} f(x)dx$$
+  
+  - Multiple Integrals  
+
+`\iint_{lower_bound}^{upper_bound}`
+
+$$\iint_{}^{}z(x,y)dxdy$$
+  
+  - Summation
+
+`\sum_{lower_bound}^{upper_bound}` 
+
+$$\sum_{i=1}^{N}x_i$$
+  
+  - Product Notation
+
+`\prod_{lower_bound}^{upper_bound}`
+
+$$\prod_{i = 1}^{N}x_i$$
+  
+  - Fraction
+
+`\frac{numerator}{denominator}`
+
+$$\int\frac{1}{x}dx$$

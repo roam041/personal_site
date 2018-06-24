@@ -1,0 +1,21 @@
+---
+title: "My Website"
+date: '`r format(Sys.time(), "%d/%m/%Y")`'
+---
+
+Common commands used in Rmarkdown.
+
+## Multiple Plot Figure
+```{r}
+par(mfrow = c(2,2)) # by rows
+hist(iris$Sepal.Length)
+hist(iris$Petal.Length)
+hist(iris$Sepal.Width)
+hist(iris$Petal.Width)
+```
+
+The function `mfcol` means the plots are arranged by columns.
+
+## Current Date
+Write "r format(Sys.time(), "%d/%m/%Y")" in YAML options.
+
