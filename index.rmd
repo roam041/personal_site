@@ -16,6 +16,11 @@ hist(iris$Petal.Width)
 
 The function `mfcol` means the plots are arranged by columns.
 
+## Boxplot
+```{r}
+boxplot(iris$Sepal.Length)
+```
+
 ## Current Date
 Write "r format(Sys.time(), "%d/%m/%Y")" in YAML options.
 
